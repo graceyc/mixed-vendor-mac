@@ -1,0 +1,36 @@
+[
+  {
+    "model": "gpt-4o-1120",
+    "api_key": "YOUR_AZURE_API_KEY",
+    "base_url": "YOUR_AZURE_ENDPOINT",
+    "api_type": "azure",
+    "api_version": "2024-12-01-preview",
+    "tags": ["x_gpt4o"]
+  },
+  {
+    "model": "o4-mini-0416",
+    "api_key": "YOUR_AZURE_API_KEY",
+    "base_url": "YOUR_AZURE_ENDPOINT",
+    "api_type": "azure",
+    "api_version": "2024-12-01-preview",
+    "tags": ["x_o4mini", "doctor_o4mini"]
+  },
+  {
+    "model": "gemini-2.5-flash",
+    "api_type": "google",
+    "api_key": "YOUR_GEMINI_API_KEY",
+    "tags": ["doctor_gemini_flash"]
+  },
+  {
+    "model": "claude-sonnet-4-5-20250929",
+    "api_type": "anthropic",
+    "api_key": "YOUR_ANTHROPIC_API_KEY",
+    "tags": ["doctor_claude", "supervisor_claude"]
+  },
+  {
+    "model": "models/gemini-2.5-pro",
+    "api_type": "google",
+    "api_key": "YOUR_GEMINI_API_KEY",
+    "tags": ["doctor_gemini", "supervisor_gemini"]
+  }
+]

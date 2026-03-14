@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Environment
+.env
+*.env
+venv/
+.venv/
+
+# API keys
+**/gpt_key.txt
+**/gemini_key.txt
+**/glm_key.txt
+
+# Caches
+.cache/
+*.pkl
+
+# Results (not tracked)
+**/runs/
+**/runs_single/
+**/output_mac_da/
+**/output/
+**/single_results/
+**/mac_results/
+*.csv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db

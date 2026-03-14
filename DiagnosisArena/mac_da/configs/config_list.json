@@ -1,0 +1,24 @@
+[
+  {
+    "model": "o4-mini-0416",
+    "api_type": "azure",
+    "base_url": "YOUR_AZURE_ENDPOINT",
+    "api_version": "2024-12-01-preview",
+    "api_key": "YOUR_AZURE_API_KEY",
+    "tags": ["doctor_o4mini", "supervisor_o4mini", "x_o4mini"]
+  },
+
+  {
+    "model": "models/gemini-2.5-pro",
+    "api_type": "google",
+    "api_key": "YOUR_GEMINI_API_KEY",
+    "tags": ["doctor_gemini", "supervisor_gemini"]
+  },
+
+  {
+    "model": "claude-sonnet-4-5-20250929",
+    "api_type": "anthropic",
+    "api_key": "YOUR_ANTHROPIC_API_KEY",
+    "tags": ["doctor_claude", "supervisor_claude"]
+  }
+]
