@@ -212,6 +212,7 @@ Uses the [BioLORD-2023](https://huggingface.co/FremyCompany/BioLORD-2023) biomed
   title={Do Mixed-Vendor Multi-Agent LLM Systems Improve Clinical Diagnosis?},
   author={Yuan, Grace Chang and Zhang, Xiaoman and Kim, Sung Eun and Rajpurkar, Pranav},
   booktitle={Proceedings of the EACL 2026 Workshop on Healthcare and Language Learning (HeaLing)},
-  year={2026}
+  year={2026},
+  url={https://arxiv.org/abs/2603.04421}
 }
 ```
